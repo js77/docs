@@ -1,0 +1,5 @@
+In this tutorial: en/tutorials-and-examples/blog-auth-example/auth.html I found that a route needs to be added to the app/config/routes.php file to indicate where the homepage can be found:
+
+Router::connect('/', array('controller' => 'users', 'action' =>'index'));
+
+My apologies if I do now know how to use this forum correctly or I am mistaken.
